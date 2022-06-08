@@ -244,10 +244,6 @@ section .title::after {
     min-height: 500px;
     background-attachment: fixed;
     background-color: black;
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    /* background-color: black; */
-    /* background-image: linear-gradient(to right top, #000000, #23141c, #3b2137, #4c325a, #524783, #4c5b9e, #3b70b8, #0085cf, #0098d7, #00abdc, #1cbddf, #4acee0);} */
-
 }
 
 .home .max-width {
@@ -270,8 +266,6 @@ section .title::after {
     color: #3cff37;
     font-family: 'Pacifico', cursive;
     letter-spacing: 2px;
-    /* text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC; */
-
 }
 
 .home .home-content .text-3 {
@@ -436,7 +430,6 @@ a {
 }
 
 /* skills section styling */
-
 .skills .title::after {
     content: "what i know";
 }
@@ -492,7 +485,6 @@ span.skill-high {
     height: 100%;
     left: 0;
     top: 0;
-    /* background: crimson; */
 }
 
 .skills-content .right .html::before {
@@ -765,39 +757,6 @@ a.head:hover {
     color: #333;
 }
 
-.contact .right form .fields {
-    display: flex;
-}
-
-.contact .right form .field,
-.contact .right form .fields .field {
-    height: 45px;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.contact .right form .textarea {
-    height: 80px;
-    width: 100%;
-}
-
-.contact .right form .name {
-    margin-right: 10px;
-}
-
-.contact .right form .field input,
-.contact .right form .textarea textarea {
-    height: 100%;
-    width: 100%;
-    border: 1px solid lightgrey;
-    border-radius: 6px;
-    outline: none;
-    padding: 0 15px;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease;
-}
-
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img {
@@ -939,16 +898,6 @@ a.head:hover {
     .contact .right form .fields {
         flex-direction: column;
     }
-
-    .contact .right form .name,
-    .contact .right form .email {
-        margin: 0;
-    }
-
-    .right form .error-box {
-        width: 150px;
-    }
-
     .scroll-up-btn {
         right: 15px;
         bottom: 15px;

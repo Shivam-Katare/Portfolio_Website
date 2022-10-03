@@ -590,6 +590,88 @@ a .project {
     background: #3cff37 !important;
 }
 
+/* OS Contribution Section */
+
+.contribute .title::after {
+    content: "what i contribute";
+}
+
+a .project {
+    color: white;
+}
+
+.teams .carousel .card {
+    background: #222;
+    border: 2px solid #3cff37;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover {
+    background: #3cff37;
+}
+
+.teams .carousel .card .box {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover .box {
+    transform: scale(1.05);
+    color: black;
+}
+
+.teams .carousel .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #3cff37;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover img {
+    border-color: black;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid #3cff37 !important;
+    transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+    width: 35px;
+    border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+    background: #3cff37 !important;
+}
+
 /* contact section styling */
 .contact .title::after {
     content: "get in touch";

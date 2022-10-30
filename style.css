@@ -304,7 +304,7 @@ section .title::after {
 
 .about .about-content .left {
     width: 31%;
-    height: 28rem;
+    height: 33rem;
     background: rgb(0 0 0 / 30%);
     box-shadow: 0 8px 32px 0 rgb(60 255 55);
     backdrop-filter: blur(12.5px);
